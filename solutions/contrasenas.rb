@@ -6,6 +6,6 @@ def contrasena(str)
   str.gsub("o", "0")
 end
 
-puts contrasena("hola") # "h0l4"
+puts contrasena("hola") #  "h0l4"
 puts contrasena("esta es una prueba") # "3st43sun4pru3b4"
 puts contrasena("") # ""
